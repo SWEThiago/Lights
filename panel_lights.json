@@ -1,0 +1,187 @@
+[
+    {
+      "id": 1,
+      "light_name": "Check Engine",
+      "icon": "/static/icons/check_engine.png",
+      "description": "Luz do motor",
+      "cause": "Possível problema no motor ou no sistema de emissões.",
+      "solution": "Leve o veículo a uma oficina autorizada para diagnóstico."
+    },
+    {
+      "id": 2,
+      "light_name": "Battery Warning",
+      "icon": "/static/icons/battery_warning.png",
+      "description": "Problema com a carga da bateria.",
+      "cause": "A bateria não está sendo carregada adequadamente.",
+      "solution": "Verificar o alternador e os cabos da bateria."
+    },
+    {
+      "id": 3,
+      "light_name": "Oil Pressure Warning",
+      "icon": "/static/icons/oil_pressure.png",
+      "description": "Baixa pressão de óleo.",
+      "cause": "Nível de óleo baixo ou falha no sistema de lubrificação.",
+      "solution": "Desligar o motor e verificar o nível de óleo."
+    },
+    {
+      "id": 4,
+      "light_name": "Brake Warning",
+      "icon": "/static/icons/brake_warning.png",
+      "description": "Problema no sistema de freios.",
+      "cause": "Freio de mão acionado ou falha no sistema de freios.",
+      "solution": "Verificar se o freio de mão está acionado ou se há problemas no sistema hidráulico."
+    },
+    {
+      "id": 5,
+      "light_name": "ABS Warning",
+      "icon": "/static/icons/abs_warning.png",
+      "description": "Problema no sistema ABS.",
+      "cause": "Falha no sistema de frenagem antibloqueio (ABS).",
+      "solution": "Levar o veículo para verificação do sistema ABS."
+    },
+    {
+      "id": 6,
+      "light_name": "Coolant Temperature Warning",
+      "icon": "/static/icons/coolant_temperature.png",
+      "description": "Motor superaquecido.",
+      "cause": "Nível de fluido refrigerante baixo ou problema na circulação do líquido de arrefecimento.",
+      "solution": "Parar o veículo, desligar o motor e verificar o fluido de arrefecimento."
+    },
+    {
+      "id": 7,
+      "light_name": "Airbag Warning",
+      "icon": "/static/icons/airbag_warning.png",
+      "description": "Problema no sistema de airbags.",
+      "cause": "Pode indicar que o airbag está desativado ou com defeito.",
+      "solution": "Levar o veículo para diagnóstico e manutenção."
+    },
+    {
+      "id": 8,
+      "light_name": "Tire Pressure Monitoring System (TPMS)",
+      "icon": "/static/icons/tpms_warning.png",
+      "description": "Pressão dos pneus fora do normal.",
+      "cause": "Um ou mais pneus estão com baixa pressão.",
+      "solution": "Verificar e ajustar a pressão dos pneus conforme especificação do fabricante."
+    },
+    {
+      "id": 9,
+      "light_name": "Traction Control Warning",
+      "icon": "/static/icons/traction_control.png",
+      "description": "Problema no sistema de controle de tração.",
+      "cause": "O sistema de controle de tração foi desativado ou detectou falha.",
+      "solution": "Se persistir, levar para manutenção."
+    },
+    {
+      "id": 10,
+      "light_name": "Stability Control Warning",
+      "icon": "/static/icons/stability_control.png",
+      "description": "Falha no sistema de controle de estabilidade.",
+      "cause": "Sistema de estabilidade do veículo está desativado ou com falha.",
+      "solution": "Pode ser necessário reiniciar o veículo ou levar para manutenção."
+    },
+    {
+      "id": 11,
+      "light_name": "Glow Plug Warning",
+      "icon": "/static/icons/glow_plug.png",
+      "description": "Luz de aquecimento do motor diesel.",
+      "cause": "Indica que as velas de aquecimento estão funcionando, necessário aguardar antes de dar partida.",
+      "solution": "Aguarde a luz apagar antes de ligar o motor."
+    },
+    {
+      "id": 12,
+      "light_name": "Fuel Warning",
+      "icon": "/static/icons/fuel_warning.png",
+      "description": "Nível de combustível baixo.",
+      "cause": "Indica que o tanque está com pouco combustível.",
+      "solution": "Abastecer o veículo o mais rápido possível."
+    },
+    {
+      "id": 13,
+      "light_name": "Door Open",
+      "icon": "/static/icons/door_open.png",
+      "description": "Porta ou porta-malas aberto.",
+      "cause": "Alguma porta ou o porta-malas está aberto.",
+      "solution": "Verificar e fechar todas as portas."
+    },
+    {
+      "id": 14,
+      "light_name": "4WD System Warning",
+      "icon": "/static/icons/4wd_system.png",
+      "description": "Problema no sistema de tração 4x4.",
+      "cause": "Falha no sistema de tração nas quatro rodas.",
+      "solution": "Levar o veículo para verificação."
+    },
+    {
+      "id": 15,
+      "light_name": "ESP/BAS Warning",
+      "icon": "/static/icons/esp_bas_warning.png",
+      "description": "Problema no sistema de estabilidade ou assistência de frenagem.",
+      "cause": "O ESP ou BAS pode estar com problema.",
+      "solution": "Levar o veículo para uma análise detalhada."
+    },
+    {
+      "id": 16,
+      "light_name": "Parking Assist Warning",
+      "icon": "/static/icons/parking_assist.png",
+      "description": "Problema com o sistema de assistência de estacionamento.",
+      "cause": "Pode indicar uma falha nos sensores de estacionamento.",
+      "solution": "Verificar sensores e, se necessário, levar para manutenção."
+    },
+    {
+      "id": 17,
+      "light_name": "Adaptive Cruise Control Warning",
+      "icon": "/static/icons/adaptive_cruise_control.png",
+      "description": "Problema com o controle adaptativo de velocidade.",
+      "cause": "Sensor bloqueado ou falha no sistema.",
+      "solution": "Verificar os sensores e, se persistir, levar para verificação."
+    },
+    {
+      "id": 18,
+      "light_name": "Low Washer Fluid",
+      "icon": "/static/icons/washer_fluid.png",
+      "description": "Nível de fluido do limpador de para-brisa está baixo.",
+      "cause": "Reservatório de fluido do limpador precisa ser reabastecido.",
+      "solution": "Adicionar fluido apropriado no reservatório."
+    },
+    {
+      "id": 19,
+      "light_name": "Service Transmission Warning",
+      "icon": "/static/icons/service_transmission.png",
+      "description": "Problema na transmissão.",
+      "cause": "Pode indicar um problema na transmissão do veículo.",
+      "solution": "Levar o veículo para diagnóstico da transmissão."
+    },
+    {
+      "id": 20,
+      "light_name": "Lane Departure Warning",
+      "icon": "/static/icons/lane_departure.png",
+      "description": "Sistema de aviso de saída de faixa ativado.",
+      "cause": "Detecção de saída da faixa sem sinalização.",
+      "solution": "Corrigir a trajetória ou reativar as setas."
+    },
+    {
+      "id": 21,
+      "light_name": "Hill Descent Control Warning",
+      "icon": "/static/icons/hill_descent.png",
+      "description": "Sistema de controle de descida ativado ou com falha.",
+      "cause": "Pode indicar que o sistema está ativado ou não está funcionando corretamente.",
+      "solution": "Utilizar o sistema em descidas íngremes ou verificar possíveis falhas."
+    },
+    {
+      "id": 22,
+      "light_name": "Cruise Control Indicator",
+      "icon": "/static/icons/cruise_control.png",
+      "description": "Controle de velocidade ativado.",
+      "cause": "O sistema de controle de velocidade está em operação.",
+      "solution": "Pode ser desativado pressionando o freio ou o botão específico."
+    },
+    {
+      "id": 23,
+      "light_name": "Forward Collision Warning",
+      "icon": "/static/icons/forward_collision.png",
+      "description": "Aviso de possível colisão frontal.",
+      "cause": "Sistema detecta um possível impacto frontal.",
+      "solution": "Reduzir a velocidade e prestar atenção no tráfego."
+    }
+  ]
+  
